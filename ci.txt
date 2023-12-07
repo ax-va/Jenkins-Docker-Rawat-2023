@@ -1,0 +1,32 @@
+CI:
+
+- Pre-deployment checks:
+-- Code stability
+-- Code quality
+-- Unit tests
+-- Code coverage
+-- Security tests
+
+- Intermediate operations like artefact management and database versioning
+
+- Post-deployment integrations:
+-- Smoke
+-- Regression
+-- API tests
+
+- Intelligent notification management
+
+- Branching strategy overview
+
+
+
+Code stability:
+- Compilation
+- Dependency validation
+
+Code quality:
+- Vulnerability
+- Bugs
+- Defects
+
+(Developers spend 45% of their time fixing bugs or addressing technical debt vs building new features.)

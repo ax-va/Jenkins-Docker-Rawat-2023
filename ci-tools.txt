@@ -1,0 +1,25 @@
+CI tools:
+- Jenkins
+- GitLab
+- Travis
+- CircleCI
+- Team City
+- Bamboo
+
+
+SonarQube server (code quality)
+client-based Sonarscanner (project analysis)
+
+
+Artifact management:
+- JFrog Artifactory
+- Sonatype Nexus
+
+
+DB management:
+- Liquibase
+- Flyway
+
+
+JMeter (load testing)
+SOAP (API Testing)
