@@ -1,22 +1,22 @@
-CI:
+Continuous integration:
 
-- Pre-deployment checks:
+1. Pre-deployment checks:
 -- Code stability
 -- Code quality
 -- Unit tests
 -- Code coverage
 -- Security tests
 
-- Intermediate operations like artefact management and database versioning
+2. Intermediate operations like artefact management and database versioning
 
-- Post-deployment integrations:
+3. Post-deployment checks:
 -- Smoke
 -- Regression
 -- API tests
 
-- Intelligent notification management
+4. Intelligent notification management
 
-- Branching strategy overview
+5. Branching strategy
 
 
 
