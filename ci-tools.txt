@@ -23,3 +23,52 @@ DB management:
 
 JMeter (load testing)
 SOAP (API Testing)
+
+
+VCS integrated pipelines:
+
+- GitLab CI/CD:
+-- GitLab Runner agent for jobs
+-- Continuous integration (CI)
+-- Continuous delivery (CD)
+-- Continuous deployment (CD)
+
+
+- GitHub Actions:
+-- Automation of Software Development Life Cycle (SDLC) workflows directly in the GitHub repository
+-- End-to-end continuous integration (CI) and continuous deployment (CD) capabilities directly in the repository
+
+
+- Bitbucket CI:
+-- Building, testing, and deploying code
+
+
+Software as a service (SaaS):
+- TravisCI
+- CircleCI
+- CodeFresh
+- Codeship
+- Shippable
+- Wercker
+- Azure DevOps
+- AWS DevOps
+
+
+Self-hosted CI/CD tools:
+- Jenkins
+- TeamCity
+- Bamboo
+- Travis
+- Circle
+- Codeship
+
+
+Why Jenkins?
+- Easy installation
+- Easy configuration
+- Available plugins
+- Extensible
+- Easy distribution
+- Notification support
+- Active community
+- No expenses required

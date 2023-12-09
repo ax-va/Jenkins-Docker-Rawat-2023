@@ -10,8 +10,8 @@ Continuous integration:
 2. Intermediate operations like artefact management and database versioning
 
 3. Post-deployment checks:
--- Smoke
--- Regression
+-- Smoke tests
+-- Regression tests
 -- API tests
 
 4. Intelligent notification management
