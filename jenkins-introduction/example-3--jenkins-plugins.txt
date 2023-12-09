@@ -3,7 +3,7 @@ Different methods to install plugins:
 - Using Jenkins-CLI (CLI = Command Line Interface)
 (Download the client https://<jenkins_url>/jnlpJars/jenkins-cli.jar,
 in my case, http://localhost:8080/jnlpJars/jenkins-cli.jar)
-- Using by uploading .hpi files (without internet connection)
+- Using by uploading .hpi files (without internet connection) (hpi = Hemera Technologies Proprietary Image)
 - ...
 See
 https://www.jenkins.io/doc/book/managing/cli/
