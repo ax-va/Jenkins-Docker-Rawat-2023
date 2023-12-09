@@ -18,3 +18,8 @@ How to install a plugin using CLI:
 $ java -jar jenkins-cli.jar -s http://<jenkins_url> -auth <my_username:my_password> install-plugin golang
 in my case, in the directory, where "jenkins-cli.jar" is located:
 $ java -jar jenkins-cli.jar -s http://localhost:8080 -auth admin:<my_password> install-plugin golang
+
+Download .hpi
+https://updates.jenkins-ci.org/download/plugins/
+For example,
+https://updates.jenkins-ci.org/download/plugins/golang

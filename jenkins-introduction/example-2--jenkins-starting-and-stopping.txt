@@ -1,0 +1,23 @@
+Start Jenkins
+$ sudo systemctl start jenkins
+
+Enable Jenkins
+$ sudo systemctl enable jenkins
+
+Enable the Jenkins port 8080 in the firewall if needed
+$ sudo ufw allow 8080
+
+Open in the browser
+http://localhost:8080/
+
+Restart Jenkins
+<jenkins_url>/restart
+in my case
+http://localhost:8080/restart
+
+Stop Jenkins
+<jenkins_url>/exit
+in my case
+http://localhost:8080/exit
+or
+sudo systemctl stop jenkins
