@@ -1,0 +1,20 @@
+Different methods to install plugins:
+- Using Web UI
+- Using Jenkins-CLI (CLI = Command Line Interface)
+(Download the client https://<jenkins_url>/jnlpJars/jenkins-cli.jar,
+in my case, http://localhost:8080/jnlpJars/jenkins-cli.jar)
+- Using by uploading .hpi files (without internet connection)
+- ...
+See
+https://www.jenkins.io/doc/book/managing/cli/
+
+Wiki
+https://wiki.jenkins.io/display/JENKINS/Jenkins-CLI.html
+
+Best practice -> restart the Jenkins service after the plugin installation
+
+
+How to install a plugin using CLI:
+$ java -jar jenkins-cli.jar -s http://<jenkins_url> -auth <my_username:my_password> install-plugin golang
+in my case, in the directory, where "jenkins-cli.jar" is located:
+$ java -jar jenkins-cli.jar -s http://localhost:8080 -auth admin:<my_password> install-plugin golang

@@ -1,10 +1,10 @@
-# https://www.jenkins.io/doc/book/installing/linux/
+See https://www.jenkins.io/doc/book/installing/linux/
 
-# Install Java
+At first, install Java
 $ sudo apt update
 $ sudo apt install fontconfig openjdk-17-jre
 
-# Install Jenkins
+Install Jenkins
 $ sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \
   https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 $ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
@@ -21,15 +21,3 @@ Please use the following password to proceed to installation:
 <password>
 This may also be found at: /var/lib/jenkins/secrets/initialAdminPassword
 ...
-
-# Start Jenkins
-$ sudo systemctl enable jenkins
-
-# Enable Jenkins
-$ sudo systemctl enable jenkins
-
-# Enable the Jenkins port 8080 in the firewall if needed
-$ sudo ufw allow 8080
-
-Open in the browser
-# http://localhost:8080/
