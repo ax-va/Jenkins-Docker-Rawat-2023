@@ -23,3 +23,22 @@ Download .hpi
 https://updates.jenkins-ci.org/download/plugins/
 For example,
 https://updates.jenkins-ci.org/download/plugins/golang
+
+Plugins:
+
+- Git
+https://plugins.jenkins.io/git/
+https://www.youtube.com/watch?v=ai1kf4ihZUo
+
+At first install Git if needed:
+$ sudo apt-get update git
+$ sudo apt-get install git
+
+$ git --version
+git version 2.34.1
+$ which git
+/usr/bin/git
+
+
+
+
