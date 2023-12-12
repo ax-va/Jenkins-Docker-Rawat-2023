@@ -27,6 +27,8 @@ https://updates.jenkins-ci.org/download/plugins/golang
 Plugins:
 
 - Git
+The git plugin provides fundamental git operations for Jenkins projects.
+It can poll, fetch, checkout, branch, list, merge, tag, and push repositories.
 https://plugins.jenkins.io/git/
 https://www.youtube.com/watch?v=ai1kf4ihZUo
 
@@ -39,6 +41,14 @@ git version 2.34.1
 $ which git
 /usr/bin/git
 
+- Folders
+This plugin allows users to create "folders" to organize jobs.
+Users can define custom taxonomies (e.g. by project type, organization type).
+Folders are nestable and you can define views within folders.
+https://plugins.jenkins.io/cloudbees-folder/
 
++ New Item -> Folder
++ Element anlegen -> Ordner
 
+- BlueOcean
 
