@@ -24,7 +24,7 @@ https://updates.jenkins-ci.org/download/plugins/
 For example,
 https://updates.jenkins-ci.org/download/plugins/golang
 
-Plugins:
+Plugins for git:
 
 - Git
 The git plugin provides fundamental git operations for Jenkins projects.
@@ -41,6 +41,8 @@ git version 2.34.1
 $ which git
 /usr/bin/git
 
+Plugins for user interface:
+
 - Folders
 This plugin allows users to create "folders" to organize jobs.
 Users can define custom taxonomies (e.g. by project type, organization type).
@@ -51,4 +53,53 @@ https://plugins.jenkins.io/cloudbees-folder/
 + Element anlegen -> Ordner
 
 - BlueOcean
+Blue Ocean rethinks the Jenkins user experience.
+Designed from the ground up for Jenkins Pipeline and compatible with Freestyle jobs,
+Blue Ocean reduces clutter and increases clarity for every member of your team.
+https://plugins.jenkins.io/blueocean/
+-- Advance pipeline visualization: have a modular view for every step of the pipeline.
+-- Branch and pull request trigger status: know the status of the branch or pull request as in how stable it is.
+-- Precision: know what steps the pipeline broke.
 
+Plugins for administration:
+
+- Agents: a group of plugins
+-- SSH Build Agents
+Provides a means to launch agents via SSH (allows you to manage Linux machines over SSH).
+https://plugins.jenkins.io/ssh-slaves/
+-- WMI Windows Agents
+Allows you to set up agents on Windows machines over Windows Management Instrumentation (WMI)
+(to manage Windows machines over the Remote Communication Service).
+https://plugins.jenkins.io/windows-slaves/
+
+- Audit Trail
+This plugin keeps a log of who performed particular Jenkins operations, such as configuring jobs.
+https://plugins.jenkins.io/audit-trail
+
+Plugins for build management:
+
+- Warnings
+The Jenkins Next Generation Warnings plugin collects compiler warnings or
+issues reported by static analysis tools and visualizes the results.
+It has built-in support for more than a hundred report formats.
+https://plugins.jenkins.io/warnings-ng/
+
+- HTML Publisher
+The HTML Publisher plugin is useful to publish HTML reports that your build generates to the job and build pages.
+It is designed to work with both Freestyle projects and being used in a Jenkins Pipeline.
+https://plugins.jenkins.io/htmlpublisher/
+
+- SonarScanner
+This plugin allows the integration of SonarQube in Jenkins projects.
+https://plugins.jenkins.io/sonar/
+
+Plugins for notification:
+
+- Slack Notification
+Provides Jenkins notification integration with Slack or Slack compatible applications like RocketChat and Mattermost.
+https://plugins.jenkins.io/slack/
+
+- Email Extension
+This plugin allows you to configure every aspect of email notifications.
+You can customize when an email is sent, who should receive it, and what the email says.
+https://plugins.jenkins.io/email-ext/
